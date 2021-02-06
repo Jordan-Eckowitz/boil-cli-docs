@@ -8,14 +8,14 @@ module.exports = {
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+  favicon: "img/boil-logo.ico",
 
   themeConfig: {
     navbar: {
-      title: "My Site",
+      title: "Boil CLI",
       logo: {
-        alt: "My Site Logo",
-        src: "img/logo.svg",
+        alt: "BOIL",
+        src: "img/boil-logo.svg",
       },
       items: [
         {
