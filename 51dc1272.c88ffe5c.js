@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{79:function(l){l.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/boil-cli-docs/blog/welcome"},{"title":"Hello","permalink":"/boil-cli-docs/blog/hello-world"},{"title":"Hola","permalink":"/boil-cli-docs/blog/hola"}]}')}}]);
