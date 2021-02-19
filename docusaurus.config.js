@@ -29,6 +29,10 @@ module.exports = {
       style: "dark",
       copyright: `Copyright © ${new Date().getFullYear()} Jordan Eckowitz`,
     },
+    googleAnalytics: {
+      trackingID: "261359528",
+      anonymizeIP: true,
+    },
   },
   presets: [
     [
@@ -44,4 +48,5 @@ module.exports = {
       },
     ],
   ],
+  plugins: ["@docusaurus/plugin-google-analytics"],
 };
