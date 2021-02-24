@@ -30,7 +30,7 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Jordan Eckowitz`,
     },
     googleAnalytics: {
-      trackingID: "261359528",
+      trackingID: "UA-129291776-2",
       anonymizeIP: true,
     },
   },
