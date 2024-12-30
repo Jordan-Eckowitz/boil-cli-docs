@@ -29,10 +29,6 @@ module.exports = {
       style: "dark",
       copyright: `Copyright © ${new Date().getFullYear()} Jordan Eckowitz`,
     },
-    googleAnalytics: {
-      trackingID: "UA-129291776-2",
-      anonymizeIP: true,
-    },
   },
   presets: [
     [
