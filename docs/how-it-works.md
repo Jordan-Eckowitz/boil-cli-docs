@@ -48,10 +48,10 @@ filetype: # REQUIRED: arg will be called using --filetype
 
 **Template arguments can be called within file names, folder names and within any file's content** using template argument placeholders.
 
-The placeholders are defined by wrapping them in triangles. The placeholders will be replaced with the user-provided argument values when the boilerplate files and/or folders are generated.
+The placeholders are defined by wrapping them in `___`. The placeholders will be replaced with the user-provided argument values when the boilerplate files and/or folders are generated.
 
 ```
-<| argument |>
+___argument___
 ```
 
 ## Template Functions
@@ -61,7 +61,7 @@ Template arguments are able to solve the majority of templating configuration pr
 In order to use template functions **the filenames need to match the desired argument name**. Below is the structure of a template function.
 
 ```js
-// usage in templates: <| example(arg1, arg2, ...) |>
+// usage in templates: ___example(arg1, arg2, ...)___
 module.exports = function (/* any args incl. local & global template args */) {
   // insert code here
 };
@@ -85,5 +85,5 @@ module.exports = function (name) {
 You could then invoke the function above within a template placeholder.
 
 ```text
-<| greeting(name) |>
+___greeting(name)___
 ```
