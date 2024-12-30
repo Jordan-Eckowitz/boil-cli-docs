@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkboil_cli_docs=self.webpackChunkboil_cli_docs||[]).push([[647],{7121:(e,s,c)=>{c.r(s),c.d(s,{default:()=>d});c(6540);var r=c(4164),l=c(1003),u=c(7559),a=c(2831),i=c(781),o=c(4848);function d(e){return(0,o.jsx)(l.e3,{className:(0,r.A)(u.G.wrapper.docsPages),children:(0,o.jsx)(i.A,{children:(0,a.v)(e.route.routes)})})}}}]);
